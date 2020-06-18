@@ -24,6 +24,7 @@ s = [int(input()) for i in range(3)]
 # x1 y1 c1
 # ...
 # xm ym cm
+m = int(input())
 x, y, c = [0] * m, [0] * m, [0] * m
 for i in range(m):
     x[i], y[i], c[i] = map(int, input().split())
